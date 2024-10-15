@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <style>
+    /* Add your background image here */
+    .bg-custom {
+        background-image: url(Image/kucha.webp);
+        background-size: cover;
+        background-position: center;
+    }
+</style>
+  <title>Document</title>
+</head>
+  <header class="fixed w-full bg-white z-[999px] ">
+      <nav class="bg-amber-100 text-center p-2">
+          Free shipping on orders of $50+
+      </nav>
+      <nav class="flex justify-between items-center w-full px-10 py-4 h-[70px] text-lg font-[Poppins]">
+          <!-- Left ul -->
+          <div class="flex-grow">
+              <ul class="flex items-center gap-8">
+                  <li>
+                      <a class="hover:text-green-400" href="#">Shop</a>
+                  </li>
+                  <li>
+                      <a class="hover:text-green-400" href="#">About</a>
+                  </li>
+                  <li>
+                      <a class="hover:text-green-400" href="#">Wholesale</a>
+                  </li>
+              </ul>
+          </div>
+
+          <!-- Logo -->
+          <div class="flex-shrink-0 ">
+              <img class="w-32" src="Image/logo.png" alt="Logo">
+          </div>
+
+          <!-- Right ul -->
+          <div class="flex-grow">
+              <ul class="flex justify-end items-center gap-8 m-0">
+                  <li>
+                      <a class="hover:text-green-400" href="#">Blog</a>
+                  </li>
+                  <li>
+                      <a class="hover:text-green-400" href="#">Search</a>
+                  </li>
+                  <li>
+                      <a class="hover:text-green-400" href="#">Log in</a>
+                  </li>
+              </ul>
+          </div>
+
+          <!-- Shopping Bag Icon -->
+          <div class="flex-shrink-0 ml-4">
+            <i class="fas fa-shopping-bag text-lg"></i>
+          </div>
+      </nav>
+  </header>
+
+  <section class="bg-custom h-screen flex items-center justify-center font-custom">
+    <div class="text-center text-white font-serif ">
+      <h1 class="text-light text-6xl font-bold mb-2 font-sans">Discover Pure Matcha</h1>
+      <p class="font-custom text-xl mb-4 font-sans">Our most-loved, ceremonial grade tea for <br>clean energy.!</p>
+      <a href="#" class="font-custom bg-amber-100 text-black py-2 px-5 rounded-full text-lg hover:bg-amber-200 p-8 font-sans">Shop Now</a>
+  </div>
+  </section>
+  
+  <section class="m-0 p-0 font-sans relative ">
+    <!-- Wave Background -->
+    <div class="bg-lime-100 z-0 h-8">
+      <!-- SVG Wave -->
+       <svg class="absolute top-[-43.2px] block left-0 right-0 w-full h-auto" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1366 59" fill="none">
+          <path fill="#ecfccb" d="M1071.86 24C1205.47 24 1323.62 8 1366 0V59H0V35C72.2883 27.3333 263.728 12 451.179 12C685.493 12 904.85 24 1071.86 24Z"></path>
+       </svg>
+    </div>
+   <!-- Content -->
+    <div class="w-full [calc(70rem+10%)] px-[300px] bg-lime-100 !important mx-auto relative text-center py-6 font-[Poppins] ">
+      <h2 class="text-6xl font-bold text-yellow-950 mb-4">Over 100,000 happy customers!</h2>
+      <p class="text-gray-600 mb-8">Since 2017, we've delighted in sourcing, blending, and sharing the best natural products for your wellness routine. Thank you for joining us on this journey 💚
+      <br>- Trinity and Issey, Co-Founders</p>
+      <a class="hover:text-green-400 underline py-4 font-[Poppins]" href="#">Discover Our Family Business.</a>
+    </div>
+  </section>
+  
+  <div>
+    <section class="p-8">
+        <div class="">
+            <div>               
+             <h2 class="py-4 text-6xl font-bold text-yellow-950 mb-4 font-[Poppins]">
+                Top rated:
+             </h2>
+            </div>
+         </div>
+        <div class="font-[Poppins]">
+            <div class="Flex grid items grid-cols-3 justify-around space-x-4">
+                <article class="p-0 m-auto ">
+                    <div>
+                        <a>
+                            <div class="bg-zinc-100">
+                                <img class="w-full h-full " src="Image/CollagenBoost15_front_IKH06995_540x675.webp" alt="super whisk">
+                            </div>
+                        </a>
+                        <div>
+                            <h3 class="text-xl font-bold py-1">Collagen Boost</h3>
+                            <a class="hover:text-lime-600" href="#">Voted Best Tasting Collagen</a>
+                            <div>
+                              <button class="bg-lime-500 hover:bg-lime-600 text-white font-bold py-2 px-4 rounded-full w-80" type="button">$18-Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="p-0 m-auto">
+                    <div>
+                        <a>
+                            <div class="bg-amber-100">
+                                <img class="w-full h-full" src="Image/PureMatcha40_Front_IKH04739_540x675.webp" alt="Pure Matcha">
+                            </div>
+                        </a>
+                        <div>
+                            <h3 class="text-xl font-bold py-1">Pure Matcha</h3>
+                            <a class="hover:text-lime-400" href="#">Ceremonial Bestseller</a>
+                            <div>
+                                <button class="bg-lime-500 hover:bg-lime-600 text-white font-bold py-2 px-4 rounded-full w-80" type="button">$28-Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="p-0 m-auto">
+                    <div>
+                        <a>
+                            <div class="bg-amber-100">
+                                <img class="w-full h-full" src="Image/SHROOM SHIELD_FRONTcopy_540x675.webp" alt="Shroom Shield">
+                            </div>
+                        </a>
+                        <div>
+                            <h3 class="text-xl font-bold py-1">Shroom Shield</h3>
+                            <a class="hover:text-lime-400" href="#">Mushroom Mocha</a>
+                            <div>
+                                <button class="bg-lime-500 hover:bg-lime-600 text-white font-bold py-2 px-4 rounded-full w-80" type="button">$32-Add to Cart</button>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </article>
+            </div>
+
+        </div>
+    </section>
+  </div>
+
+  <section class="flex flex-col m-0 p-0 font-sans pt-20 relative">
+    <!-- Wave Background Top -->
+    <div class="bg-lime-100 h-8 ">
+      <!-- SVG Wave -->
+      <svg class=" top-[-50.2px] bottom-[-50px] relative left-0 right-0  w-full h-auto" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1366 59" fill="none">
+        <path fill="#ecfccb" d="m1071.86 24C1205.47 24 1323.62 8 1366 0V59H0V35C72.2883 27.3333 263.728 12 451.179 12C685.493 12 904.85 24 1071.86 24Z"></path>
+      </svg>
+    </div>
+  
+    <!-- Content -->
+    <div class="flex justify-between p-6 w-full [calc(70rem+10%)] bg-lime-100 !important mx-auto relative px-24 pl-16 py-6 font-[serif] gap-20">
+      <article class="flex items-center text-left max-w-3xl pr-28 mr-20">
+        <div class="">
+          <h3 class="text-6xl font-bold text-yellow-950 mb-4 ">Bloat-Free, Naturally</h3>
+          <p class="text-lg font-sans mb-4 text-yellow-950 font-bold">"Within 2 days I saw a noticeable difference<br> in my bloating and stomach comfort!" - Carlie C.</p>
+          <div>
+            <button class="font-custom bg-lime-100 py-2 px-5 rounded-full border-black border-2 text-lg hover:bg-lime-200 p-8 font-sans ">Shop Debloat</button>
+          </div>
+        </div>
+      </article>
+      <article class="flex justify-end">
+        <div>
+          <img class="w-[85%] rounded-lg" src="Image/pineapple.webp" alt="pineapple">
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="p-8">
+    <div class="">
+        <div>               
+         <h2 class="py-4 text-6xl font-bold text-yellow-950 mb-4 font-[Poppins]">
+            More favorites:
+         </h2>
+        </div>
+     </div>
+    <div class="font-[Poppins]">
+        <div class="Flex grid items grid-cols-3 justify-around space-x-4">
+            <article class="p-0 m-auto ">
+                <div>
+                    <a>
+                        <div class="bg-zinc-200 rounded p-4">
+
+                            <img class="w-full h-full" src="Image/superwhiskreviews_IKH04775_540x675 (1).webp" alt="super whisk">
+                        </div>
+                    </a>
+                    <div>
+                        <h3 class="text-xl font-bold py-1">Superwhisk</h3>
+                        <a class="hover:text-lime-600" href="#">USB-Rechargeable Frother</a>
+                        <div>
+                          <button class="bg-lime-500 hover:bg-lime-600 text-white font-bold py-2 px-4 rounded-full w-80" type="button">$28-Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="p-0 m-auto">
+                <div>
+                    <a>
+                        <div class="bg-zinc-300 rounded p-4">
+                            <img class="w-full h-full" src="Image/pineappledebloat_IKH06446_540x675.webp" alt="Pineapple Debloat">
+                        </div>
+                    </a>
+                    <div>
+                        <h3 class="text-xl font-bold py-1">Pineapple Debloat Ade</h3>
+                        <a class="hover:text-lime-400" href="#">Sip + Reset</a>
+                        <div>
+                            <button class="bg-lime-500 hover:bg-lime-600 text-white font-bold py-2 px-4 rounded-full w-80" type="button">$15-Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="p-0 m-auto">
+                <div>
+                    <a>
+                        <div class="bg-zinc-300 rounded p-4">
+                            <img class="w-full h-full" src="Image/SuperfoodLatteBlend_MatchaTurmeric_Front_IKH04353_540x675 (1).webp" alt="Matcha Turmeric">
+                        </div>
+                    </a>
+                    <div>
+                        <h3 class="text-xl font-bold py-1">Matcha Turmeric Latte Blend</h3>
+                        <a class="hover:text-lime-400" href="#">Golden Milk + Energy</a>
+                        <div>
+                            <button class="bg-lime-500 hover:bg-lime-600 text-white font-bold py-2 px-4 rounded-full w-80" type="button">$32-Add to Cart</button>
+                        </div>
+                        
+                    </div>
+                </div>
+            </article>
+        </div>
+
+    </div>
+</section>
+
+<section></section>
+ 
+<section class="">
+    <div class="Flex grid items grid-cols-3 justify-around space-x-4">
+        <article>  
+            <div>
+                <h3 class="text-6xl font-bold text-yellow-950 mb-4 ">Made With Golde!</h3>
+                <p></p>
+                <div>
+                    <button class="font-custom bg-lime-100 py-2 px-5 rounded-full border-black border-2 text-lg hover:bg-lime-200 p-8 font-sans" type="button">More Recipes</button>
+                </div>
+            </div>
+        </article>
+        <article>
+            <a>
+                <div class="bg-lime-100 h-48 rounded p-4">
+                    <img class="w-full h-full" src="Image/download.jfif" alt="Lemon Turmeric Poppyseed Bites">
+                </div>
+            </a>
+            <h3></h3>
+            <a></a>
+        </article>
+        <article>
+            <div class="bg-lime-100 h-5 rounded p-4">
+              <img class="w-full h-full" src="Image/images.jfif" alt="Lemon Turmeric Poppyseed Bites">
+            </div>
+        </article>
+    </div>
+</section>
+  
+</body>
+</html>
